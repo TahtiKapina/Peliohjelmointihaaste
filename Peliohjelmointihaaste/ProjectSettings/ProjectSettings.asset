@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: ffcdf068bb6700a42a85723282452cf3
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -920,12 +920,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 3b1a6005-7bb3-40c3-9aca-dbb7a62473c2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Casual 2D Game
+  projectName: Peliohjelmointihaaste 2026-03-06_10-10-38
   organizationId: tahtiapina
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

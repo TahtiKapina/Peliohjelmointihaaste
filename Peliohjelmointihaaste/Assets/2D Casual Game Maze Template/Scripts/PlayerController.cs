@@ -8,7 +8,7 @@ namespace MazeTemplate
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private bool canMove;
-        [SerializeField] private GameplayUI gameplayUI;
+
         private Rigidbody2D rb;
         private float speed = 10;
 
@@ -17,7 +17,7 @@ namespace MazeTemplate
 
         private void Start()
         {
-            gameplayUI = GameObject.Find("Gameplay").GetComponent<GameplayUI>();
+
             rb = GetComponent<Rigidbody2D>();
             canMove = true;
         }
@@ -73,7 +73,7 @@ namespace MazeTemplate
         void DoSomething()
         {
             canMove = false;
-            AudioManager.instance.PlayFirstSound();
+            
         }
 
         private void WASDAndArrowsMove()
@@ -112,7 +112,7 @@ namespace MazeTemplate
         {
             if (collision.CompareTag("Win"))
             {
-                gameplayUI.LevelWin();
+
                 Destroy(gameObject, 3);
             }
         }
